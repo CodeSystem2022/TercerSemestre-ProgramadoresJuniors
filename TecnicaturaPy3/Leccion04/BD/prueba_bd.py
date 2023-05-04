@@ -16,3 +16,4 @@ print(registros)
 
 cursor.close()
 conexion.close() 
+ 
