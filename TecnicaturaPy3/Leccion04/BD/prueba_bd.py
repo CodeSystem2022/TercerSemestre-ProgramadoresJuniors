@@ -15,4 +15,4 @@ registros = cursor.fetchall() # Recuperamos todos los registros (lista)
 print(registros)
 
 cursor.close()
-conexion.close()
+conexion.close() 
