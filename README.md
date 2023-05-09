@@ -19,7 +19,7 @@
 |  Semana 4 | *Soel Attala* |
 |  Semana 5 | *Gastón Franco* |
 
-### `Instrucciones` 
+## `Instrucciones` 
 - Hacer cambios sobre la rama de la clase que se vaya a trabajar.
 - Pushear los cambios y mergear con developer. 
 - Al final de la semana se hará un merge a la rama main para evitar cualquier inconveniente.
