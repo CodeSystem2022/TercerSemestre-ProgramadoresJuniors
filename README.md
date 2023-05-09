@@ -1,6 +1,8 @@
 # TercerSemestre-ProgrmadoresJuniors
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" align="center" height="200" width="400" />
-#### Integrantes:
+
+## Integrantes:
+
 - Bianca Tosetto
 - Emir Maya
 - Gastón Franco
