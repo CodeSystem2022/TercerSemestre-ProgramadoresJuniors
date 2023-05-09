@@ -1,7 +1,7 @@
 # TercerSemestre-ProgrmadoresJuniors
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" align="center" height="200" width="400" />
 
-## `Integrantes`:
+# `Integrantes`:
 
 - Bianca Tosetto
 - Emir Maya
@@ -9,7 +9,7 @@
 - Renzo Viscio
 - Soel Attala
 
-# `Organización`
+## `Organización`
 
 | Semana | Scrum Master |
 | ---- | ---- |
@@ -19,7 +19,7 @@
 |  Semana 4 | *Soel Attala* |
 |  Semana 5 | *Gastón Franco* |
 
-## `Instrucciones` 
+### `Instrucciones` 
 - Hacer cambios sobre la rama de la clase que se vaya a trabajar.
 - Pushear los cambios y mergear con developer. 
 - Al final de la semana se hará un merge a la rama main para evitar cualquier inconveniente.
