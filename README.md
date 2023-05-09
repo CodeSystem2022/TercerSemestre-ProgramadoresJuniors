@@ -1,11 +1,11 @@
 # TercerSemestre-ProgrmadoresJuniors
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" align="center" height="150" width="200" />
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" align="center" height="200" width="400" />
 Integrantes:
-• Bianca Tosetto
-• Emir Maya
-• Gastón Franco
-• Renzo Viscio
-• Soel Attala
+- Bianca Tosetto
+- Emir Maya
+- Gastón Franco
+- Renzo Viscio
+- Soel Attala
 
 # `Organización`
 
