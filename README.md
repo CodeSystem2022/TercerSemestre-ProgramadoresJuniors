@@ -11,10 +11,10 @@ Integrantes:
 
 | Semana | Scrum Master |
 | ---- | ---- |
-|  semana 1 | *Emir Maya* |
-|  semana 2 | *Renzo Viscio* |
-|  semana 3 | *Bianca Tosetto* |
-|  semana 4 | *Soel Attala* |
-|  semana 5 | *Gastón Franco* |
+|  Semana 1 | *Emir Maya* |
+|  Semana 2 | *Renzo Viscio* |
+|  Semana 3 | *Bianca Tosetto* |
+|  Semana 4 | *Soel Attala* |
+|  Semana 5 | *Gastón Franco* |
 
 Instrucciones: hacer cambios sobre la rama de la clase que se vaya a trabajar, pushear los cambios y mergear con developer, al final de la semana se hará un merge a la rama main para evitar cualquier inconveniente.
