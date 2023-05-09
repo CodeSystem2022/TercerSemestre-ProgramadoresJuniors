@@ -1,5 +1,5 @@
 # TercerSemestre-ProgrmadoresJuniors
-<img src="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC" align="center" height="150" width="200" />
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" align="center" height="150" width="200" />
 Integrantes:
 • Bianca Tosetto
 • Emir Maya
