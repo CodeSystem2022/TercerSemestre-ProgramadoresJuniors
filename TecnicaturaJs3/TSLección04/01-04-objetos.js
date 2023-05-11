@@ -107,4 +107,4 @@ let miFunction2 = function(){}; //Recomendada
 
 //Uso de prototype
 Persona3.prototype.telefono = "156879865";
-console.log(padre);
+console.log(padre); 
