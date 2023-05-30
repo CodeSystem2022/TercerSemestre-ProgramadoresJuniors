@@ -14,5 +14,8 @@ cursor.execute(sentencia) # Ejecutamos la sentencia
 registros = cursor.fetchall() # Recuperamos todos los registros (lista)
 print(registros)
 
+
 cursor.close()
 conexion.close() 
+ 
+

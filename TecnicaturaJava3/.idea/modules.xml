@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Leccion02/ArgumentosVariables/ArgumentosVariables.iml" filepath="$PROJECT_DIR$/Leccion02/ArgumentosVariables/ArgumentosVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion02/BloquesInicializacion/BloquesInicializacion.iml" filepath="$PROJECT_DIR$/Leccion02/BloquesInicializacion/BloquesInicializacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion02/Enumeraciones/Enumeraciones.iml" filepath="$PROJECT_DIR$/Leccion02/Enumeraciones/Enumeraciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion01/Leccion01.iml" filepath="$PROJECT_DIR$/Leccion01/Leccion01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion03/Leccion03.iml" filepath="$PROJECT_DIR$/Leccion03/Leccion03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion03/Leccion03.6/Leccion03.6.iml" filepath="$PROJECT_DIR$/Leccion03/Leccion03.6/Leccion03.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion04/Leccion04.iml" filepath="$PROJECT_DIR$/Leccion04/Leccion04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion03/Leccion3.3/Leccion3.3.iml" filepath="$PROJECT_DIR$/Leccion03/Leccion3.3/Leccion3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TecnicaturaJava3.iml" filepath="$PROJECT_DIR$/.idea/TecnicaturaJava3.iml" />
+    </modules>
+  </component>
+</project>

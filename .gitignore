@@ -1,0 +1,32 @@
+####################################   GIT IGNORE DE PYTHON  ####################################
+
+# Archivos y carpetas generados por entornos virtuales
+venv/
+env/
+
+# Archivos de registro y salida
+*.log
+*.txt
+
+# Archivos de caché y compilación
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyz/
+*.pywz
+*.ipynb_checkpoints/
+
+# Dependencias y paquetes instalados
+/.venv/
+/lib/
+/parts/
+/build/
+/dist/
+/.eggs/
+/*.egg-info/
+/.installed.cfg
+
+####################################   ...  #################################### 
