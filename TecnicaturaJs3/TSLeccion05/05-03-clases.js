@@ -1,9 +1,24 @@
 //let persona3 = new Persona('Carla', 'Ponce'); // No se puede crear un objeto antes de inicializar la clase
 
 class Persona{ // Clase padre
+
+    static contadorPersona = 0; /* atributo estático */
+    /* email = 'Valor default email';  atributo NO estático */
+
+    static get MAX_OBJ(){ /* Este metodo simula una constante */
+        return 5;
+    }
+
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
+        if(Persona.contadorPersona < Persona.MAX_OBJ){
+            this.idPersona = ++Persona.contadorPersona;
+        }else{
+            console.log('Has llegado al límite de personas')
+            return null
+        }
+       /*  console.log('\n Incrementando contador en ' + Persona.contadorsPersona) */
     }
     
     get nombre(){
@@ -24,7 +39,7 @@ class Persona{ // Clase padre
 
 
     nombreCompleto(){
-        return this._nombre + ' ' + this._apellido;
+        return this.idPersona + ' ' + this._nombre + ' ' + this._apellido;
     }
 
     //Sobreescribiendo el metodo de la clase padre (Object)
@@ -34,7 +49,14 @@ class Persona{ // Clase padre
         return this.nombreCompleto();
     }
 
+    static saludar(){
+        console.log('Saludo desde este método static');
+    }
+    static saludar2(persona){
+        console.log('Hola ' + persona.nombre);
+    }
 }
+
 
 class Empleado extends Persona{ // Clase hija
     constructor(nombre, apellido, departamento){
@@ -55,7 +77,7 @@ class Empleado extends Persona{ // Clase hija
     nombreCompleto(){
         return super.nombreCompleto() +  ', ' + this._departamento;
     }
-=======
+/* ======= */
 
 }
 
@@ -86,6 +108,35 @@ console.log(empleado1.nombreCompleto()); // Se hereda el metodo de la clase padr
 //Object.prototype.toString Esta es la manera de acceder a atributos y metodos de forma dinámica
 console.log(empleado1.toString());
 console.log(persona1.toString());
-=======
+/* ======= */
 console.log(empleado1.nombre); // Se hereda el metodo Get de la clase padre
 
+                                    /******** Clase 7 *********/
+
+Persona.saludar();
+Persona.saludar2(persona1);
+
+/* console.log(persona1.contadorObjetosPersona); */
+console.log('\n contador clase padre: ' + Persona.contadorPersona)
+console.log('contador clase hija: ' + Empleado.contadorPersona)
+
+/* console.log(persona1.email)
+ *//* console.log(empleado1.email) */
+/* console.log(Persona.email)  No se puede acceder desde la clase */
+
+console.log(persona1.toString())
+console.log(empleado1.toString())
+console.log(Persona.contadorPersona)
+
+let persona3 = new Persona('Carla', 'Lara')
+console.log(persona3.toString())
+console.log(Persona.contadorPersona)
+console.log('\n contador clase padre: ' + Persona.contadorPersona)
+console.log('contador clase hija: ' + Empleado.contadorPersona)
+
+console.log('Límite de personas: ' + Persona.MAX_OBJ)
+
+/* Persona.MAX_OBJ = 8   No se puede modificar ni alterar */
+let persona4 = new Persona('Juan', 'Fernandez')
+let persona5 = new Persona('Pedro', 'Picapiedra')
+console.log(persona5.toString())
