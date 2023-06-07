@@ -22,7 +22,7 @@
 |  Semana 7 | *Soel Attala* |
 |  Semana 8| *Emir Maya* |
 |  Semana 9 | *Gastón Franco* |
-|  Semana 10 | *Soel Attala* |
+|  Semana 10 | *Bianca Tosetto* |
 
 
 ## `Instrucciones` 
