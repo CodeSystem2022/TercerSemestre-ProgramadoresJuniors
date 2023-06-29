@@ -17,4 +17,4 @@ class CatalogoPeliculas:
     @classmethod
     def eliminar_peliculas(cls):
         os.remove(cls.ruta_archivo)
-        print(f'Archivo eliminado: {cls.ruta_archivo}')
+        print(f'Archivo eliminado:  {cls.ruta_archivo}')
